@@ -1,1 +1,74 @@
-test
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>anything2win</title>
+        <style>
+            html, body {
+                height: 100%;
+            }
+            body {
+                margin: 0;
+                background-color: #060a0a;
+                color: #d0b852;
+            }
+            @keyframes emoticons {
+                0% {
+                    content: "(ノಠ ∩ಠ)ノ彡( o°o)";
+                }
+                12.5% {
+                    content: "ლ(ಠ_ಠლ)";
+                }
+                25% {
+                    content: "ι(｀ロ´)ノ";
+                }
+                37.5% {
+                    content: "٩(╬ఠ༬ఠ)و";
+                }
+                50% {
+                    content: "(ノಠ益ಠ)ノ.";
+                }
+                62.5% {
+                    content: "(ಠ⌣ಠ)";
+                }
+                75% {
+                    content: "(´Д｀)";
+                }
+                87.5% {
+                    content: "(҂⌣̀_⌣́)";
+                }
+                100% {
+                    content: "( ︶︿︶)_╭∩╮";
+                }
+            }
+            h1 {
+                font-size: 8rem;
+                text-align: center;
+                width: 100%;
+            }
+            h1::after {
+                content: "(ノಠ益ಠ)ノ彡┻━┻";
+                animation-name: emoticons;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                animation-duration: 30s;
+            }
+            main {
+                height: 100%;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <main><h1></h1></main>
+    </body>
+</html>
